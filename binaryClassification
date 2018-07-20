@@ -5,8 +5,7 @@ from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.preprocessing import image
 from keras import backend as K
 import numpy as np
-from sklearn import preprocessing
-le = preprocessing.LabelEncoder()
+
 
 
 img_width, img_height = 150, 150
@@ -100,7 +99,7 @@ def predictImage(image_name):
     if prediction == 0:
         prediction='african'
     else
-        prediction = 'african'
+        prediction = 'asian'
     print(prediction)
 
 #testResult= model.evaluate_generator(test_generator,verbose=2)
