@@ -1,0 +1,97 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt,
+dd,
+button,
+.button,
+div,
+li,
+input,
+select,
+label{
+	font-family: "Avenir Next";
+}
+#e_header{
+	padding:1rem;
+	background-color: #91C6FF;
+}
+#e_header p{
+	font-size: 2rem;
+	color: white;
+}
+.e-full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+.e-upload-images{
+	margin-top: 2rem;
+}
+.e-upload-images i,
+.e-upload-images img{
+	width: 100%;
+	font-size: 5rem;
+}
+.e-upload-images img.e-arrow{
+	margin-top: 2rem;
+	width: 100%;
+}
+.e-instruct-text{
+	margin:2rem;
+	margin-right: 4rem;
+	margin-left: 4rem;
+}
+.e-upload-border img{
+	width: 5rem;
+	height: 4rem;
+}
+#e_file_upload{
+	display: none;
+}
+.e-upload-border{
+	padding: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border:1px solid black;
+	border-style: dashed;
+}
+.e-upload-instruct p{
+	line-height: 0.5rem;
+}
+.e-upload-instruct{
+	margin-top: 2rem;
+}
+.e-project-desc p{
+	line-height: 0.3rem;
+
+}
+.e-project-desc p span{
+	border-bottom: 3px solid #91C6FF;
+}
+.e-project-desc{
+	margin-top: 1rem;
+}
+.e-instruction-image{
+	height: 5rem;
+}
+#e_actual_image{
+	margin-top: -2rem;
+	border-radius: 50%;
+    border: 2px solid #91C6FF;
+    width: 6rem;
+    height: 6rem;
+}
+.e-browse-files{
+	margin-top: 1rem;
+	height: 2rem;
+    border: solid 1px #91C6FF;
+    border-radius: 0.5rem;
+    text-decoration: underline;
+    text-align: center;
+}

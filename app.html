@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-jsx" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/ethnic.js"></script>
+    <script src="js/ethnic-init.js"></script>
+
+
+    <title>Ethnic Tracker</title>
+</head>
+<body>
+    <!--Header-->
+    <div id="e_header" class="row e-full-width">
+        <div class="columns text-center small-12 large-12">
+            <p>Ethnic Tracker</p>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="columns small-12 align-center">
+            <img alt="instructions" class="e-instruction-image" src="images/instructions.png">
+        </div>
+    </div>
+    <p class="e-instruct-text text-center">Upload a Selfie of yourself and we can predict your ethnicity!</p>
+    <div class="e-upload-border align-center row small-8 medium-6 large-4">
+        <div id="e_pre_upload">
+            <div class="row small-12 align-center">
+                <img src="images/cloudUpload.png" alt="upload here">
+            </div> 
+            <div class="text-center e-upload-instruct">
+                <p>Drag&Drop Files Here</p>
+                <p>or</p>
+                <input type="file"  id="e_file_upload"/>
+                
+            <div class="row align-center small-12">
+                <label for="e_file_upload" class="e-browse-files small-8">Browse Files</label>
+
+            </div>
+
+            </div>
+        </div>
+        <div id="e_post_upload">
+            <div class="row small-12 align-center">
+                <img src="" height="200" id="e_actual_image">
+
+            </div> 
+            <div class="e-upload-instruct">
+                <p>The Ethnicities we predicted are...</p>
+                <p>94% African</p>
+                <p>5% Indian</p>
+                <p>1% Asian
+            </div>
+            <div class="row align-center small-12">
+                <label for="e_file_upload" class="e-browse-files small-8">Try Again</label>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="e-project-desc">
+        <div class="text-left row small-8 medium-6 large-4">
+            <p>Created by Malek Karray</p>
+        </div>
+        <div class="text-left row small-8 medium-6 large-4">
+            <p>Source Code <span>Here</span></p>
+        </div>
+    </div>
+</body>
+</html>
